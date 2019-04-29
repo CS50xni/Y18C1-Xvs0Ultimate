@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- para que nos aparescan los caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- Para el pobre internet explorer-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Para el tamaño de la pagina segun pantalla-->
+    <title>X vs 0 - Ultimate</title>
+
+    <link rel="stylesheet" href="css/normalize.css"> <!-- para trabajar las caracteristicas mas facil XD -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Hojas de estilo -->
+
+    <link href="http://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet" type="text/css"> <!-- Fuente -->
+
+    <link rel="shortcut icon" href="img/Icono.png"> <!-- icono para la pesataña -->
+    <script src="js/modernizr.js"></script> <!-- para asegurarnos que se ejecute sin error casi en cualquier navegador -->
+</head>
+
+<body>
+    <div id="content"> <!-- Contenedor Total o Padre -->
+        <div id="game"> <!-- Contendor del juego o tablero total -->
+            <div id="title"><h1> X vs 0 - Ultimate </h1></div> <!-- Titulo del juego -->
+            <div id="title"><h2>Jugador 1 <br> jugador 2</h2></div>
+
+            <div id="content_tablero">
+                <!-- Tablero o matriz 3x3 -->
+                <div id="tablero">
+                    <div class="filas">
+                        <div class="filas">
+                            <div id="c02" class="cell"></div>
+                            <div id="c12" class="cell"></div>
+                            <div id="c22" class="cell"></div>
+                        </div>
+
+                        <div class="filas">
+                            <div id="c01" class="cell"></div>
+                            <div id="c11" class="cell"></div>
+                            <div id="c21" class="cell"></div>
+                        </div>
+
+                        <div class="filas">
+                            <div id="c00" class="cell"></div>
+                            <div id="c10" class="cell"></div>
+                            <div id="c20" class="cell"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- cierre del contenedor general -->
+</body>
+</html>
